@@ -1,13 +1,23 @@
-#Validador de CPF v.1.0.0
+#Validador de CPF v.1.0.0 (Projeto com objetivo pedagógico)
 
 Esta biblioteca se destina à verificação da validade de CPF (Cadastro de Pessoa Física), para uso em aplicações web. Nessa versão é possível validar quaisquer números de CPF.
 
 ##Como instalar:
 
+
 ##Como utilizar:
 
 
 ##Roadmap Oficial do Projeto
+
+Versão 1.1.0 (Maio/2019)
+
+  *funcionalidades: validação de CPF;
+  *normalização entrada de dados: para números de CPF com e sem máscara. 
+
+Versão 1.0.0 (Released)
+
+  *estrutura inicial do projeto, utilizando a prática de desenvolvimento TDD (Test Driven Development), sem funcionalidades implementadas.
 
 
 ##Conceitos
@@ -20,7 +30,7 @@ O cálculo do CPF (Cadastro de Pessoa Física) é especificado pelo Ministério 
 
 Primeiramente multiplica-se os 9 primeiros dígitos pela sequência decrescente de números de 10 à 2 e soma os resultados. Exemplo de um CPF fictício "529.982.247-25". Assim:
 
-  5 * 10 + 2 * 9 + 9 * 8 + 9 * 7 + 8 * 6 + 2 * 5 + 2 * 4 + 4 * 3 + 7 * 2
+  >5 * 10 + 2 * 9 + 9 * 8 + 9 * 7 + 8 * 6 + 2 * 5 + 2 * 4 + 4 * 3 + 7 * 2
 
 O resultado do nosso exemplo é: 295
 
