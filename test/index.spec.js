@@ -25,13 +25,13 @@ describe('cpfValidator', () => {
   });
 
   describe('Entrada inválida do CPF', () => {
-    it('Retorna erro: Caso de entrada com caracteres não compatíveis', () => {
+    it('Retorna erro: Caso de entrada somente com letras', () => {
       expect(() => { cpfValidator('abc.def.ghi-jk') }).to.throw(Error, 'Verifique número de dígitos: Esperado 11 /Encontrado 0');
     });
     it('Retorna erro: Caso de tamanho diferente de 11', () => {
       expect(() => { cpfValidator(123456789) }).to.throw(Error, 'Verifique número de dígitos: Esperado 11 /Encontrado 9');
     });
-    it('Retorna erro: Caso do tipo de dado incompativel (booleano)', () => {
+    it('Retorna erro: Caso de entrada inválida (typeof: booleano)', () => {
       expect(() => { cpfValidator(false) }).to.throw(Error, 'Tipo de entrada inválida: boolean')
     });
   });
