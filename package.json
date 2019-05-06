@@ -2,7 +2,7 @@
   "name": "biblioteca-cpf",
   "version": "1.0.0",
   "description": "teste",
-  "main": "cpf.js",
+  "main": "index.js",
   "dependencies": {
     "eslint": "^5.16.0"
   },

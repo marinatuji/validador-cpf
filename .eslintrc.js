@@ -29,11 +29,70 @@ module.exports = {
             'error',
             'always'
         ],
+        'space-in-parens': [
+            "error",
+            "never"
+        ],
+        'padded-blocks': [
+            "error",
+            "never"
+        ],
         'camelcase': 1,
         'id-lenght': [
             "error",
             2
         ],
-        'keyword-spacing': 1,
+        'keyword-spacing': [
+            'error',
+            { "before": true }
+        ],
+        "space-infix-ops": [
+            "error",
+            {"int32Hint": false}
+        ],
+        "comma-spacing": [
+            "error",
+            { "before": false, "after": true }
+        ],
+        "space-before-blocks": [
+            "error",
+            "always"
+        ],
+        "spaced-comment": [
+            "error",
+            "always",
+            { "exceptions": ["-", "+"] }
+        ],
+        "no-multi-spaces": [
+            "error",
+        ],
+        "no-multiple-empty-lines":[
+          "error",
+          { "max": 2}
+        ],
+        "space-before-function-paren":[
+            "error",
+            "never"
+        ],
+        "func-call-spacing": [
+            "error",
+            "never"
+        ],
+        "no-floating-decimal": [
+            "error"
+        ],
+        "object-property-newline": [
+            "error"
+        ],
+        "brace-style": [
+            "error"
+        ],
+        "eqeqeq": [
+            "error",
+            "always"
+        ],
+        "no-array-constructor":[
+            "error",
+        ],
     }
 };
