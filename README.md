@@ -1,6 +1,6 @@
 #Validador de CPF v.1.0.0 (Projeto com objetivo pedagógico)
 
-Esta biblioteca se destina à verificação da validade de CPF (Cadastro de Pessoa Física), para uso em aplicações web. Nessa versão é possível validar quaisquer números de CPF.
+Esta biblioteca se destina à validação de CPF (Cadastro de Pessoa Física), para uso em aplicações web. Nessa versão é possível validar quaisquer números de CPF.
 
 ##Como instalar:
 

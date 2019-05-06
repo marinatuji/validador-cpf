@@ -34,6 +34,6 @@ module.exports = {
             "error",
             2
         ],
-        'keyword-spacing':1,
+        'keyword-spacing': 1,
     }
 };
