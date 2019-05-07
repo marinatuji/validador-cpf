@@ -10,10 +10,11 @@ Esta biblioteca se destina à validação de CPF (Cadastro de Pessoa Física), p
 
 ## Como utilizar:
 
+Exemplo para um CPF válido: 
 ```shell
 > const result = require("biblioteca-cpf");
-> result.cpfValidator(cpfNumber)
-> // retorna "CPF válido" ou "CPF inválido"
+> result.cpfValidator("529.982.247-25");
+> // retorna "true"
 ```
 
 ## Roadmap Oficial do Projeto
