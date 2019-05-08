@@ -14,10 +14,13 @@ Exemplo para um CPF válido:
 ```shell
 > const result = require("biblioteca-cpf");
 > result.cpfValidator("529.982.247-25");
-> // retorna "true"
+> // retorna true
 ```
 
 ## Roadmap Oficial do Projeto
+
+Versão 1.1.3 (Maio/2019)
+  * correções de **bug** e refatorações de código.  
 
 Versão 1.1.0 (Maio/2019)
 
